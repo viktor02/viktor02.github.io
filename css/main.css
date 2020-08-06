@@ -1,0 +1,11 @@
+.text-center{
+    text-align: center;
+}
+
+.text-monospace{
+    font-family: monospace;
+}
+
+img{
+    box-shadow: 10px 10px 13px 3px rgba(0,0,0,0.55);
+}
