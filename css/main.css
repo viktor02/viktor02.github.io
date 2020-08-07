@@ -7,10 +7,21 @@
 }
 
 .text-bold{
-    font-weight: 100;
+    font-weight: 400;
 }
 
 img{
     box-shadow: 10px 10px 13px 3px rgba(0,0,0,0.55);
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #000;
+    opacity: 0.2;
+    background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+    background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+    background-image: -o-linear-gradient(left, #fff, #000, #fff);
 }
 
