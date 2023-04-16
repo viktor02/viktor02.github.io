@@ -1,155 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A site that tells about me and my projects.">
-    <title>Viktor Karpov - Project hub</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.0/milligram.css">
-
+    <title>Viktor Karpov</title>
     <link rel="stylesheet" href="css/main.css">
-
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
+
 <body>
     <div class="container">
-        <h1>My projects</h1>
-        
-        <div class="row">
-            <div class="column">
-                <blockquote>
-                    <p><em>my socials:</em>
-                        <br>
-                        <a href="https://vk.com/karpoviktor">vk</a>,
-                        <a href="https://github.com/viktor02">github</a>,
-                        <a href="mailto:v@vitka-k.ru">e-mail</a>
-                    </p>
-                </blockquote>
+        <section id="menu">
+            <div class="row">
+                <div class="column">
+                    <b>Viktor Karpov</b>
+                </div>
+                <div class="column">
+                    <ul id="navbar">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#content">My projects</a></li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
+        </section>
 
-        <!-- ============================= HILDR === -->
-        <div class="text-center">
-            <h1 class="text-bold">Hildr</h1>
-        </div>
-        <!-- Hildr -->
-        <div class="row">
-            <div class="column">
-                <h2>Hildr</h2>
-                <p>Hildr is a tracker of your time spent playing games.</p>
-                <a href="https://github.com/viktor02/Hildr/" class="button">More</a>
-            </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/Hildr/raw/master/img/hello.png" alt="img">
-            </div>
-        </div>
-        <br>
-        <!-- Hildr GUI -->
-        <div class="row">
-            <div class="column">
-                <h2>HildrGUI</h2>
-                <p>Simple viewer of Hildr database </p>
-                <a href="https://github.com/viktor02/HildrGUI/" class="button">More</a>
-            </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/HildrGUI/raw/master/img/hello.png" alt="img">
-            </div>
-        </div>
-        <hr>
+        <section style="display: block;">
+            <p>Hello. I'm backend/windows developer, interested in information security</p>
+        </section>
 
-        <!-- ============================= HABRMIRROR === -->
-        <div class="text-center">
-            <h1 class="text-bold">HabrMirror</h1>
-        </div>
-        <!-- HabrMirror -->
-        <div class="row">
-            <div class="column">
-                <h2>HabrMirror</h2>
-                <p>Yet another mirror site of habr.com</p>
-                <a href="https://github.com/viktor02/habrmirror" class="button">More</a>
-            </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/habrmirror/raw/master/images/hello.png" alt="img">
-            </div>
-        </div>
-        <br>
-        <!-- Habr2Sqlite -->
-        <div class="row">
-            <div class="column">
-                <h2>habr2sqlite</h2>
-                <p>Parser Habrahabr to SQLite3 database</p>
-                <a href="https://github.com/viktor02/habr2sqlite/" class="button">More</a>
-            </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/habr2sqlite/raw/master/img/hello.gif" alt="img">
-            </div>
-        </div>
-        <hr>
+        <section id="about">
+            <p>
+                Live: Saint-Petersburg, Russia
+                <br>
+                Age: 19
+                <br>
+                Interests: Open Source; InfoSec; Linux administration; Night coding & good music;
+                <br> <br>
+                What else do you need? Look at the projects
+            </p>
+        </section>
 
-        <!-- ============================= OTHER === -->
-        <div class="text-center">
-            <h1 class="text-bold">Other</h1>
-        </div>
-        <!-- schedule -->
-        <div class="row">
-            <div class="column">
-                <h2>less_schedule</h2>
-                <p>My college schedule</p>
-                <a href="https://github.com/viktor02/less_schedule/" class="button">More</a>
-                <a href="https://schedule.vitka-k.ru/calendar" class="button">Try</a>
+        <section id="contacts">
+            <em>My socials:</em>
+            <br>
+            <ul>
+                <li><a href="https://vk.com/karpoviktor">vk</a></li>
+                <li><a href="https://github.com/viktor02">github</a></li>
+                <li><a href="mailto:v@vitka-k.ru">e-mail</a></li>
+            </ul>
+            <em>My articles:</em>
+            <ul>
+                <li><a href="https://habr.com/ru/post/490820/">Весь Хабр в одной базе. Часть 1</a></li>
+                <li><a href="https://habr.com/ru/post/496892/">Весь Хабр в одной базе. Часть 2</a></li>
+            </ul>
+        </section>
+
+        <section id="content">
+            <!-- EroSmb -->
+            <div class="row">
+                <div class="column">
+                    <h2>EroSmb</h2>
+                    <p>Fast Smb Network Scanner.</p>
+                    <a href="https://github.com/viktor02/EroSmb/" class="button">Source</a>
+                    <a href="https://pypi.org/project/EroSmb/" class="button">Pypi</a>
+                </div>
+                <div class="column">
+                    <img src="https://raw.githubusercontent.com/viktor02/EroSmb/master/img/logo.png" loading="lazy" alt="img/logo.png">
+                </div>
             </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/less_schedule/raw/master/img/hello.png" alt="img">
+            <br>
+            <!-- wasd2play -->
+            <div class="row">
+                <div class="column">
+                    <h2>wasd2play</h2>
+                    <p>Open wasd.tv stream in your favorite player! </p>
+                    <a href="https://github.com/viktor02/wasd2play/" class="button">Source</a>
+                    <a href="https://pypi.org/project/wasd2play/" class="button">Pypi</a>
+                </div>
+                <div class="column">
+                    <img src="https://raw.githubusercontent.com/viktor02/wasd2play/master/img/hello.png" loading="lazy" alt="img">
+                </div>
             </div>
-        </div>
-        <br>
-        <!-- wasd2play -->
-        <div class="row">
-            <div class="column">
-                <h2>wasd2play</h2>
-                <p>Open wasd.tv stream in your favorite player! </p>
-                <a href="https://github.com/viktor02/wasd2play/" class="button">More</a>
+            <br>
+            <!-- DuCoWallet -->
+            <div class="row">
+                <div class="column">
+                    <h2>DuCoWallet</h2>
+                    <p>Yet Another Wallet for DuinoCoin.</p>
+                    <a href="https://github.com/viktor02/DuCoWallet/" class="button">Source</a>
+                </div>
+                <div class="column">
+                    <img src="https://raw.githubusercontent.com/viktor02/DuCoWallet/master/img/main.png" loading="lazy" alt="img/main.png">
+                </div>
             </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/wasd2play/raw/master/img/hello.png" alt="img">
+            <br>
+            <!-- schedule -->
+            <div class="row">
+                <div class="column">
+                    <h2>less_schedule</h2>
+                    <p>My college schedule</p>
+                    <a href="https://github.com/viktor02/less_schedule/" class="button">More</a>
+                    <a href="https://schedule.vitka-k.ru/calendar" class="button">Try it</a>
+                </div>
+                <div class="column">
+                    <img src="https://raw.githubusercontent.com/viktor02/less_schedule/master/img/hello.png" loading="lazy" alt="img">
+                </div>
             </div>
-        </div>
-        <br>
-        <!-- @bestiary_bot -->
-        <div class="row">
-            <div class="column">
-                <h2>@bestiary_bot</h2>
-                <p>Python-implementaion of bestiary.us telegram bot</p>
-                <a href="https://github.com/viktor02/bestiary_bot/" class="button">Source</a>
-                <a href="https://t.me/bestiary_bot" class="button">Try</a>
-            </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/bestiary_bot/raw/master/img/hello.png" alt="img">
-            </div>
-        </div>
-        <br>
-        <!-- OwnDiary -->
-        <div class="row">
-            <div class="column">
-                <h2>OwnDiary</h2>
-                <p>OwnDiary - your diary</p>
-                <a href="https://github.com/viktor02/OwnDiary/" class="button">More</a>
-            </div>
-            <div class="column">
-                <img src="https://github.com/viktor02/OwnDiary/raw/master/img/hello.png" alt="img">
-            </div>
-        </div>
+            <br>
+            <p>More on <a href="https://github.com/viktor02">github</a></p>
+        </section>
     </div>
-    <br>
-    <footer>
-        <div class="container">
-            <p>Thanks to <a href="https://milligram.io">Milligram</a> for the awesome microframework</p>
-        </div>
-    </footer>
-
 </body>
+
 </html>
