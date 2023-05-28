@@ -19,7 +19,7 @@ h3 {
 	font-weight: bolder;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	border-bottom: 2px solid #999999;
+	border-bottom: 1px solid #ccc;;
 }
 
 img {
@@ -35,11 +35,6 @@ a {
 section:target, #menu { 
     display: block;
 }
-
-section {
-    display: none;
-}
-
 .container {
     margin-left: 10%;
     margin-right: 2%;
@@ -79,4 +74,33 @@ section {
 
 #menu {
     margin-bottom: 5%;
+}
+
+/* For desktop devices */
+@media only screen and (min-width: 768px) {
+    /* Display container as flex */
+    div.columns {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    /* Set width of each column to 50% */
+    #about, #contacts {
+        width: 50%;
+        box-sizing: border-box;
+    }
+}
+  
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    /* Display container as block */
+    div.columns {
+      display: block;
+    }
+    
+    /* Set full width for each column */
+    #about, #contacts {
+      width: 100%;
+    }
 }
